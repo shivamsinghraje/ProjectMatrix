@@ -1,0 +1,105 @@
+
+
+HELP.md
+*.log
+logs/
+
+
+# OS Files
+
+
+
+.DS_Store
+Thumbs.db
+
+
+
+# Backend (Java / Maven)
+
+
+
+target/
+.mvn/wrapper/maven-wrapper.jar
+.mvn/
+mvnw
+mvnw.cmd
+
+# Allow target/build inside src if needed
+
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+
+# IDEs
+
+
+
+## IntelliJ IDEA
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+## Eclipse / STS
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.eclipse/
+
+## VS Code
+
+.vscode/
+
+## NetBeans
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+
+# Build Tools
+
+
+
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+
+
+# Environment Files
+
+
+
+.env
+application-local.properties
+
+
+# Uploads
+
+
+
+uploads/
+
+
+
+# Frontend
+
+
+
+node_modules/
+dist/
+
+
+.env
+.env.*
